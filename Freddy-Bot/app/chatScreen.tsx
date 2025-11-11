@@ -6,6 +6,7 @@ import AvatarBubble from './AvatarBubble';
 const ChatScreen: React.FC = () => {
   const [messages, setMessages] = useState<IMessage[]>([]);
 
+  //simulate user response
   useEffect(() => {
     setMessages([
       {
@@ -24,7 +25,7 @@ const ChatScreen: React.FC = () => {
   const onSend = useCallback((newMessages: IMessage[] = []) => {
     setMessages(prev => GiftedChat.append(prev, newMessages));
 
-    // Simulate AI/avatar response
+    //simulate AI response
     setTimeout(() => {
       const aiMessage: IMessage = {
         _id: Math.random().toString(),
