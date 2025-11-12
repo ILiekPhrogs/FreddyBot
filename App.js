@@ -4,8 +4,13 @@ import ChatScreen from './Freddy-Bot/app/chatScreen';
 
 export default function App(){
     return (
-        <view>
-            <ChatScreen></ChatScreen>
-        </view>
+        <View>
+            <ChatScreen/>
+        </View>
     )
 }
+const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+    },
+  });

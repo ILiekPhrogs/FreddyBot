@@ -1,6 +1,6 @@
 {
   "name": "freddy-bot",
-  "main": "/Users/raquelwoolsey/Documents/GitHub/FreddyBot/App.js",
+  "main": "App.js",
   "version": "1.0.0",
   "scripts": {
     "start": "expo start",

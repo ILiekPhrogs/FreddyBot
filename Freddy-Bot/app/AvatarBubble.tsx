@@ -17,9 +17,9 @@ const AvatarBubble: React.FC<AvatarBubbleProps> = ({ mood = 'neutral' }) => {
   }, [mood]);
 
   const avatarSource = {
-    neutral: require('../assets/freddywait.GIF'),
-    listening: require('../assets/freddywait.GIF'),
-    happy: require('../assets/freddywait.GIF'),
+    neutral: require('../assets/images/freddyneutral.jpg'),
+    listening: require('../assets/images/freddylistening.jpg'),
+    happy: require('../assets/images/freddyneutral.jpg'),
   }[mood];
 
   return (
